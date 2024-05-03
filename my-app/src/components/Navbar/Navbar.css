@@ -1,0 +1,40 @@
+nav{
+    width: 100%;
+    background: #2b2746;
+    padding: 4px 0;
+    backdrop-filter: blur(4px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+
+}
+.logo {
+    height: 52px;
+    margin-right: 6px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 5px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logoText {
+   text-align: center;
+}
+.navLinks, .logoText {
+    color: #FFD060;
+    text-shadow: -1px -1px 0 #7B5A0B;
+    font-weight: 700;
+}
+
+.logoWrapper {
+    display: flex; 
+    align-items: center; 
+}
