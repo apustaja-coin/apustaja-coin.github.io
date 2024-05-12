@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.howToBuyContainer{
+    background: #2b2746;
+    color: white;
+    display: inline-block;
+padding: 100px 0;   
+}
+
+.howToBuyTitle{
+    text-align: center;
+
+}
+.contractData {
+    display: flex;
+    margin: 20px auto;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 60%;
+}
+
+@media (max-width: 1100px) {
+    .contractData {
+        max-width: 100%;
+    }
+}
+@media (max-width: 1300px) {
+    .contractData {
+        max-width: 90%;
+    }
+}
+@media (max-width: 1800px) {
+    .contractData {
+        max-width: 80%;
+    }
+}

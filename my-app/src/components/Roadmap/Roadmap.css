@@ -1,0 +1,70 @@
+.roadmap {
+    background-color: #2b2746;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+
+}
+.roadmapImg {
+    width: 100%;
+    border-radius: 16px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.roadmapImg img{
+    max-width: 60%;
+
+ }
+.roadmapInfo {
+    flex: 1;
+    display: flex;
+    align-items:  center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.roadmapPhase{
+    width: 50%;
+    padding: 10px;
+
+}
+.roadmapPhase h3 {
+    margin-bottom: 20px;
+}
+.roadmapPhase ol {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    font-family: "Ubuntu Mono", monospace !important;
+}
+
+.checkmark {
+    height: 18px;
+    width: 18px;
+    margin-bottom: -4px;
+    margin-right: 8px;
+}
+.loader {
+    margin-bottom: -10px;
+    margin-left: -6px;
+    height: 30px;
+    width: 30px;
+}
+@media (max-width: 700px) {
+    .roadmap {
+flex-direction: column;
+
+    }
+    .roadmapPhase{
+        width: 100%;
+    }
+    .roadmapInfo {
+     margin-bottom: 1rem;   
+
+    }
+  }

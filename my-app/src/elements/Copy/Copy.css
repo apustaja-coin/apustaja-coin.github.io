@@ -1,0 +1,31 @@
+button {
+
+  padding: 20px;
+  margin: 3rem 0 2rem 0;
+  transition: opacity 400ms ease-out;
+  display: flex;
+word-break: break-all;
+    flex-wrap: wrap;
+  cursor: pointer;
+  font-size: 20px;
+  border-radius: 16px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #3c763d;
+  color: #62cd64;
+  background-color: #15141f;
+  -webkit-text-stroke: 1px #000000;
+}
+
+.tooltipText{
+    font-size: 13px;
+    line-height: 1.4;
+    text-align: left;
+}
+
+button:hover {
+    transform: translateY(-1px);
+    background-color: #201f30;
+    box-shadow: none;
+ 
+ }

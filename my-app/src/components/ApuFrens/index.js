@@ -1,3 +1,3 @@
-import ApuFrens from "./ApuFrens";
+import ApuFrens from "./ApuFrens.js";
 
 export default ApuFrens;

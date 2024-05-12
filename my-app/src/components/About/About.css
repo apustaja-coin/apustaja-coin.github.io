@@ -1,10 +1,10 @@
 .aboutSection {
-    padding: 100px 0;
     justify-content: center;
     display: flex;
     align-items: center;
     background: #2b2746;
     color: white;
+    padding-top: 40px;
    
 }
 .aboutWrapper{
@@ -50,8 +50,6 @@ div .about{
 }
 
 .apuDefaultImg {
-    animation: fadeApu 6s;
-
 }
 
 @keyframes fadeApu {

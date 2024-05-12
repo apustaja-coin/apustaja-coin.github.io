@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .wrapper{
@@ -40,75 +41,3 @@
          1px  1px 0 #000; /* Creates a subtle outline effect */
 }
 
-
-.socials {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 3rem;
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-
-.fill {
-        width: 25%;
-   
-}
-.socials a {
-    width: 64px;
-    height: 64px;
-    border-radius: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 6px;
-  
-} 
-.dexscreener {
-    background-color: #111116;
-}   
-
-.telegram{
-    background-color: white;
-}
-.dextools{
-    background-color: #333;
-}
-.gecko {
-    background-color: #111116;
-}
-
-.popUp:hover{
-animation: popUpSocials 2s ease-in-out infinite;
-
-
-
-}
-.socials a:hover {
-    transform: scale(1.25);
-    box-shadow: 6px 6px 6px 0px rgba(0,0,0,0.3);
-    border-radius: 40px;
-} 
-
-@keyframes popUpSocials {
-0% {transform: translateY(0%); }
-25% { transform: translateY(-20%); }
-50% { transform: translateY(0); }
-75% { transform: translateY(-20%); }
-100% { transform: translateY(0); }
-
-}
-
-
-
-@media (max-width: 400px) {
-  .apu {
-    font-weight: 700;
-font-size: 70px;
-margin-top: 0;
-margin-bottom: 0;
-  }
-}

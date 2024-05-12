@@ -1,0 +1,24 @@
+[{
+    "name": {"name": "Phase One", "delay": 0},
+"description": [{"name": "Launch", "delay": 0.2 },
+{"name": "Community Takeover", "delay": 0.4 },
+{"name": "New website and socials", "delay": 0.6 },
+{"name": "Implement number go up technology", "delay": 0.8 }
+],
+"complete": true
+},
+{
+    "name": {"name":  "Phase Two", "delay": 0.9},
+    "description": 
+    [{"name": "NFT Collection", "delay": 1 },
+{"name": "Unite all frens", "delay": 1.2},
+{"name": "Make memes", "delay": 1.4 },
+{"name": "Enjoy life", "delay": 1.6 }
+],
+    "complete": false
+},
+{
+    "name": {"name":  "Phase Three", "delay": 1.7},
+    "description": [{"name": "Top Solana memecoin", "delay": 1.8 }],
+    "complete": false
+}]

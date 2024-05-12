@@ -1,0 +1,57 @@
+.tokenomicsWrapper {
+    background-color: #FFD060;
+    color: #6A5F82;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.tokenomicsImg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    padding: 33px;
+}
+.tokenomicsImg img{
+    max-width: 50%;
+ }
+
+.tokenomicsInfo {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    padding: 33px;
+    flex: 1;
+}
+
+@media (max-width: 700px) {
+    .tokenomicsWrapper {
+flex-direction: column;
+    }
+    .tokenomicsImg img{
+        max-width: 70%;
+     }
+  }
+
+hr.light {
+    color: white;
+    border: 2px solid white;
+    width: 40px;
+    margin-top: 32px;
+
+}
+.tokenomicsInfo h1 {
+    margin-top: 32px;
+    font-family: "Gloria Hallelujah", cursive;
+    font-weight: 400;
+    font-style: normal;
+    text-shadow: 2px 2px 0px #2b2746, -2px -2px 0px #2b2746, 2px -2px 0px #2b2746, -2px 2px 0px #2b2746, 2px 2px 0px #2b2746;
+    font-size: 51.3333px;
+}
+

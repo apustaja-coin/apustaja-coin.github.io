@@ -1,0 +1,23 @@
+.contact {
+    background-color: #eff8f7;
+    color: #2b2746;
+    padding: 60px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    flex-direction: column;
+}
+.contactInfo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Ubuntu Mono", monospace;
+    word-break: break-all;
+    flex-wrap: wrap;
+}
+.contactInfo .light {
+    margin-bottom: 1rem;
+}
