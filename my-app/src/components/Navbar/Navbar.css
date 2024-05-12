@@ -23,18 +23,6 @@ header {
     z-index: -1;
 }
 
-.header::after{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 0.3;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, var(--theme-secondary), transparent);
-    transition: .5s;
-}
-
 .header:hover::after{
     left: 100%;
 }
